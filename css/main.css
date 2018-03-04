@@ -1,0 +1,159 @@
+/*Шрифт - ComicNefors*/
+@font-face{
+	font-family: "PTSans";
+	src: url(../fonts/PTSans.ttf.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "PetersburgBoldItalicCyrillic";
+	src: url(../fonts/PetersburgBoldItalicCyrillic.ttf);
+	font-weight: normal;
+}
+
+/*Задний фон*/
+body{
+	background: url(../img/bodyBackground.png) ;
+}
+
+/*Стиль для шрифтов(Общий)*/
+h1, h2, h3, h4, h5, h6, a, i, .navbar-light .navbar-nav .nav-link {
+	color: #E9E9E9;
+	font-family: "PTSans";
+}
+p, .navbar-light .navbar-brand{
+	color: #E9E9E9;
+	font-family: "PetersburgBoldItalicCyrillic";
+	font-style: italic;
+}
+p{
+	font-size: 1.3em;
+}
+li{
+	font-size: 1.3em;
+	color: #E9E9E9;
+	font-family: "PetersburgBoldItalicCyrillic";
+	font-style: italic;
+}
+h1{
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-light .navbar-brand{
+	font-size: 35px;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-size: 24px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+	color: #4EB1BA;
+}
+i:hover{
+	color: #4EB1BA;
+}
+
+/*Стили для кнопок*/
+button{
+	background: #4EB1BA;
+	color: #E9E9E9;
+	font-family: "PetersburgBoldItalicCyrillic";
+}
+button:hover, button:active{
+	background: #4e7fba;
+}
+
+/*Стили section-menu*/
+#section-menu{
+	border-bottom: solid 10px #4EB1BA;
+}
+
+#section-menu .navbar{
+	width: 100%;
+	background: none;
+}
+
+#section-menu .navbar-light .navbar-toggler{
+	background: #E9E9E9;
+}
+#section-menu .navbar-light .navbar-toggler:hover,#section-menu .navbar-light .navbar-toggler:active,#section-menu .navbar-light .navbar-toggler:focus{
+	background: #4EB1BA;
+}
+#section-menu i{
+	border: solid 2px #4EB1BA;
+	margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*Стиль section-carousel*/
+#section-carousel .container{
+	padding: 0px;
+}
+#section-carousel #carouselExampleIndicators .carousel-inner .carousel-item{
+	height: 600px;
+}
+#section-carousel #carouselExampleIndicators .carousel-inner .carousel-item img{
+	display: block;
+	height: 100%;	
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+/*style section-catalog*/
+#section-catalog{
+	border-bottom: solid 10px #4EB1BA;
+	padding-bottom: 25px;
+}
+
+#section-catalog .product{
+	margin-bottom: 40px;
+}
+#section-catalog .product img{
+	width: 100%;
+}
+#section-catalog h4:hover{
+	color: #4EB1BA;
+}
+
+
+/*style section-info*/
+#section-info{
+	padding: 0 15px;
+}
+
+#section-info{
+	border-bottom: solid 10px #4EB1BA;
+	padding-bottom: 25px;
+}
+
+/*style section-info*/
+#section-footer{
+	padding: 40px 0;
+}
+
+#section-footer i{
+	padding: 0px 5px;
+}
+#section-footer p{
+	text-align: right;
+}
+
+/*style media*/
+@media (max-width:767px){
+	#section-footer .col-md-4{
+		text-align: center;
+	}
+	#section-footer i{
+		padding: 5px;
+	}
+	#section-footer p{
+		text-align: center;
+	}
+}
